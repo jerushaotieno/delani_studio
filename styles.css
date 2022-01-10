@@ -49,3 +49,14 @@
 .portfolio{
     justify-content: center;
 }
+
+#portfolio{
+    text-align: center;
+}
+
+.portfolio_row{
+    display: flex;
+    width: 1366px;
+    padding: 5%;
+    justify-content: space-between;
+}
