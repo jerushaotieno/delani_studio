@@ -32,13 +32,18 @@
     padding-top: 5%;
     padding-bottom: 5%;
     line-height: 35px;
-    height: 500px;
-    float: right;
+    height: 450px;
 }
 
 #what_we_do{
     align-items: center;
     text-align: center;
+    padding-bottom: 5%;
+}
+
+.what_we_do_row{
+    display: flex;
+    
 }
 
 .portfolio{
