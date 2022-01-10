@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="styles.css">
     <title>Delani Studio</title>
 </head>
 <body>
-    <div>
+    <div class="introduction">
         <img src="ip3_assets/backgrounds/h_img.jpg" alt="person_climbing_a_flight_of_stairs">
 
         <div>
@@ -23,10 +25,12 @@
             AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
         </p>
 
-        <img src="ip3_assets/mouse_click.png">
+        <div id="mouse">
+            <img src="ip3_assets/mouse_click.png" alt="mouse_icon">
+        </div>
     </div>
 
-    <div>
+    <div class="about_us">
         <h2>
             ABOUT US
         </h2>
@@ -40,8 +44,7 @@
         </p>
     </div>
 
-    <div>
-
+    <div class="services">
         <img src="ip3_assets/backgrounds/s_image.jpg" alt="picture_of_a_phone_laptop_and_mouse_on_a_table">
 
         <h2>
@@ -55,46 +58,93 @@
         </p>
     </div>
 
-    <div>
+    <div class="what_we_do">
         <h2>
             WHAT WE DO
         </h2>
 
-        <div>
-            <img src="ip3_assets/services_icons/design_icon.png" alt="icon_of_a_pen">
-            <p>
-                DESIGN
-            </p>
-        </div>
+        <div class="what_we_do_row">
+            <div>
+                <img src="ip3_assets/services_icons/design_icon.png" alt="icon_of_a_pen">
+                
+                <p>
+                    DESIGN
+                </p>
 
-        <div>
-            <img src="ip3_assets/services_icons/dev_icon.png" alt="icon_of_a_htm_tags">
-            <p>
-                DEVELOPMENT
-            </p>
-        </div>
+                <div class="toggle_content">
+                    <p>
+                        Our design practice offers a full range of services <br>
+                        including brand strategy, interaction and visual design, <br>
+                        and user experience testing. <br>
+                    </p>
 
-        <div>
-            <img src="ip3_assets/services_icons/product_icon.png" alt="icon_of_a_written_checklist">
-            <p>
-                PRODUCT MANAGEMENT
-            </p>
+                    <p>
+                        Throughout your project, our designers create and <br>
+                        implement visual design and workflows, solicit user <br>
+                        feedback and work with you to make sure what gets built <br>
+                        is what is needed.
+                    </p>
+                </div>
+            </div>
+    
+            <div>
+                <img src="ip3_assets/services_icons/dev_icon.png" alt="icon_of_a_htm_tags">
+                
+                <p>
+                    DEVELOPMENT
+                </p>
+
+                <div class="toggle_content">
+                    <p>
+                        All engineers are fluent in the latest enterprise, mobile <br>
+                        and web development technologies.
+                    </p>
+
+                    <p>
+                        They collaborate with your team to write, and improve <br>
+                        code on a daily basis, using proven practices such as <br>
+                        test-driven development and pair programming.
+                    </p>
+                </div>
+
+            </div>
+    
+            <div>
+                <img src="ip3_assets/services_icons/product_icon.png" alt="icon_of_a_written_checklist">
+                
+                <p>
+                    PRODUCT MANAGEMENT
+                </p>
+
+                <div class="toggle_content">
+                    <p>
+                        Planning and development is iterative. Because we are <br>
+                        constantly coding and testing, the products we build are <br>
+                        always ready to go live.
+                    </p>
+
+                    <p>
+                        The iterative process allows for changes as business <br>
+                        requirements evolve.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div>
+    <div class="portfolio">
         <h1>
             PORTFOLIO
         </h1>
 
-        <div>
+        <div class="portfolio_row">
             <img src="ip3_assets/portfolio/work4.jpg" alt="image_of_a_blank_grey_surface">
             <img src="ip3_assets/portfolio/work3.jpg" alt="mighty_ontario_security_logo">
             <img src="ip3_assets/portfolio/work2.jpg" alt="image_of_a_gold_surface_with_pyramid_designs">
             <img src="ip3_assets/portfolio/work1.jpg" alt="image_of_an_entertainment_website">
         </div>
 
-        <div>
+        <div class="portfolio_row">
             <img src="ip3_assets/portfolio/work5.jpg" alt="image_of_a_website_landing_page">
             <img src="ip3_assets/portfolio/work6.jpg" alt="image_of_the_fromtend_of_a_technical_web_application">
             <img src="ip3_assets/portfolio/work7.jpg" alt="image_of_burned_company_logo_mock_up">
@@ -102,7 +152,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="contact_us">
         <img src="ip3_assets/backgrounds/c_image.jpg" alt="image_of_a_technical_machine">
 
         <div>
@@ -118,7 +168,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="social_media">
         <img src="ip3_assets/social_icons/twitter.png "alt="twitter_icon"> 
         <span><img src="ip3_assets/social_icons/dribble.png "alt="dribble_icon"></span>
         <span><img src="ip3_assets/social_icons/facebook.png "alt="facebook_icon "></span>
