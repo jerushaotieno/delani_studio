@@ -1,11 +1,10 @@
 # Delani Studio
-This is a web application for calculating the day of the week a user was born depending on their birthday and gender according to Ghanaian Akan naming culture. 
+This is the landing page of a software development studio which uses design, development of effective product management of effective and elegant solutions to create exceptional products. 
 
 #### By Jerusha Otieno
 
 ## Description
-My Akan Name is a web application allowing you to calculate the day of the 
-week you were born depending on your birthday and gender after which it gives you your corresponding Ghanaian Akan Name for a taste of Ghanaian naming culture.
+Delani Studio is a landing page of a software development studio which uses design, development of effective product management of effective and elegant solutions to create exceptional products. It allows the user to learn more abou what the studio does and how it delivers its work.
 
 ## Setup/Installation Requirements
 * Visual Studio (VS) Code is a must have.
@@ -13,18 +12,13 @@ week you were born depending on your birthday and gender after which it gives yo
 * Use Go Live on VS Code.
 
 ## Behavior Driven Development 
-* The application checks whether the date and month entered are valid. 
-* If they are not, the user is alerted and prompted to enter a valid value. 
-* E.g: the date in any given month should not be <= 0 or > 31 or month in any given year should not be <= 0 or > 12.  
-* The web application generates a user's Akan name based on their gender.
-* E.g: A female user with a result calculation of 1 should receive their Akan name as Adwoa matching the day Monday, whose index is 1. 
-* Output for each user should for example read “My Akan name is Adwoa”.
+* The application allows the user to toggle the content of the "What We Do" sction so that you can read and learn more about what the studio does.
+* The application allows you to hover over contents of the "Portfolio" section and let's you know the name of the project.
+* The application allows you to reach out to the studio through the form section.
+* Output for each user when they send the studio and email should for example "Hi Jat, thank you for getting in touch. Your email is well received."
 
 ## Link to Live Site on GitHub Pages
-https://jerushaotieno.github.io/akan_name/
-
-## Link to Project Figma Design
-https://www.figma.com/file/8YtIkULNwHtGgaXew3Cwyy/Akan-Name-Generator
+https://jerushaotieno.github.io/delani_studio/
 
 ## Known Bugs
 No bugs have been identified.
@@ -34,11 +28,13 @@ No bugs have been identified.
 * CSS
 * JavaScript
 * Bootstrap
+* J Query
+
 
 ## Suport and Contact Details
 Email: jerushaotienocoding@gmail.com 
 
 ### License
-[GNU License](./LICENSE)
+MIT License
 
-Copyright (c) [2021] **Jerusha Otieno**
+Copyright (c) 2019 John Mutavi
