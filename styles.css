@@ -67,13 +67,40 @@
 
 .contact_us{
     background-image: url(ip3_assets/backgrounds/c_image.jpg);
-    background-size: 1366px 768px;
+    background-size: cover;
+    background-color: transparent;
     padding: 5%;
     line-height: 30px;
     justify-self: center;
+    color: white;
 }
 
 #contact_us{
     text-align: center;
     color: white;
+}
+
+::placeholder{
+    color: white;
+    background-color: transparent;
+    border: 300px white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+#message {
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.social_media{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer{
+    text-align: center;
+    font-size: small;
 }
