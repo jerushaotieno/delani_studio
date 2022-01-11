@@ -33,11 +33,11 @@ $(document).ready(function() {
 //     });
 
 //JS code for contacting us via email
-    $("form#contact_form").submit(function(event) {
+    $("#contact_form").submit(function(event) {
         event.preventDefault();
         var name = $("#contact_name").val();
-        alert("Hi " + name + " Thank you for getting in touch. Your email is well received.");
-        document.getElementById("contact_form").reset();
+        alert("Hi " + name + ", Thank you for getting in touch. Your email is well received.");
+        $(this)[0].reset();
     })
 });
 
