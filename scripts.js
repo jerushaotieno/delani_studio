@@ -2,36 +2,37 @@ $(document).ready(function() {
 
     //toggle for the "What We Do" section
 
-    $('#design_icon').click(function() {
-        $(this).hide();
-        $('.design_content').show();
+    $('.toggle_row >img').click(function() {
+        $(this).toggleClass('d-none');
+        $('.design_content').toggleClass('d-none');
     });
 
     $('.design_content').click(function() {
-        $(this).hide();
-        $('#design_icon').show();
+        $(this).toggleClass('d-none');
+        $('.toggle_row >img').toggleClass('d-none');
     });
 
-    $('#development_icon').click(function() {
-        $(this).hide();
-        $('.development_content').toggle();
-    });
+//     $('#development_icon').click(function() {
+//         $(this).hide();
+//         $('.development_content').toggle();
+//     });
 
-    $('.development_content').click(function() {
-        $(this).hide();
-        $('#development_icon').toggle();
-    });
+//     $('.development_content').click(function() {
+//         $(this).hide();
+//         $('#development_icon').toggle();
+//     });
 
-    $('#product_management_icon').click(function() {
-        $(this).hide();
-        $('.product_management_content').toggle();
-    });
+//     $('#product_management_icon').click(function() {
+//         $(this).hide();
+//         $('.product_management_content').toggle();
+//     });
 
-    $('.product_management_content').click(function() {
-        $(this).hide();
-        $('#product_management').toggle();
-    });
+//     $('.product_management_content').click(function() {
+//         $(this).hide();
+//         $('#product_management').toggle();
+//     });
 
+//JS code for contacting us via email
     $("form#contact_form").submit(function(event) {
         event.preventDefault();
         var name = $("#contact_name").val();

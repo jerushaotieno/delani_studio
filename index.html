@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css" rel ="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Delani Studio</title>
 </head>
 <body>
@@ -69,7 +70,7 @@
                     DESIGN
                 </p>
 
-                <div class="design_content">
+                <div class="design_content d-none">
                     <p>
                         Our design practice offers a full range of services <br>
                         including brand strategy, interaction and visual design, <br>
@@ -178,11 +179,15 @@
                 CONTACT US
             </h2>
 
-            <form action="" id="contact_form">
+            <form ion="" id="contact_form">
                 <input id="contact_name" name="contact_name" type="text" placeholder="Name..." style="width: 500px;">
                 <span><input name="contact_email" type="email" placeholder="Email..." style="width: 500px;"></span>
                 <textarea id="message" placeholder="Your message here..." style="height:200px" cols="90"></textarea>
             </form>
+        </div>
+
+        <div>
+            <input type="submit" id="submit" size="15" value="SUBMIT">
         </div>
     </div>
 
@@ -204,5 +209,8 @@
             2019
         </p>
     </footer>
+
+    <script src="scripts.js"></script>
+
 </body>
 </html>
