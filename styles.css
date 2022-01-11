@@ -39,11 +39,13 @@
     align-items: center;
     text-align: center;
     padding-bottom: 5%;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
 .what_we_do_row{
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .portfolio{
