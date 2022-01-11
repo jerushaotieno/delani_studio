@@ -12,8 +12,8 @@
 .about_us{
     text-align: center;
     padding-top: 5%;
-    padding-bottom: 3%;
-    line-height: 35px;
+    padding-bottom: 5%;
+    line-height: 50px;
     height: 400px;
 }
 
@@ -30,9 +30,11 @@
 
 .what_we_do{
     padding-top: 5%;
-    padding-bottom: 5%;
-    line-height: 35px;
-    height: 400px;
+    padding-bottom: 2%;
+    line-height: 20px;
+    height: 450px;
+    justify-content: center;
+    text-align: center;
 }
 
 #what_we_do{
@@ -45,11 +47,13 @@
 
 .what_we_do_row{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .portfolio{
     justify-content: center;
+    padding-left: 8%;
 }
 
 #portfolio{
@@ -61,6 +65,7 @@
     width: 800px;
     padding-left: 5%;
     padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .portfolio_row_item{
