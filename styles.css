@@ -73,11 +73,12 @@
 }
 
 .overlay{
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    background-color: rgba(209, 202, 202, 0.65);
-    width: 100%;
+    bottom: 20px;
+    left: 35px;
+    height: 70%;
+    color: white;
+    border: 3px solid white;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;

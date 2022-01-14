@@ -2,43 +2,43 @@ $(document).ready(function() {
 
     // JS code to add toggle effect for the "What We Do" section
 
-    $('.toggle_row >img').click(function() {
+    $('#design_icon >img').click(function() {
         $(this).toggleClass('d-none');
         $('.design_content').toggleClass('d-none');
     });
 
     $('.design_content').click(function() {
         $(this).toggleClass('d-none');
-        $('.toggle_row >img').toggleClass('d-none');
+        $('#design_icon >img').toggleClass('d-none');
     });
 
-    $('.toggle_row >img').click(function() {
+    $('#development_icon >img').click(function() {
         $(this).toggleClass('d-none');
         $('.development_content').toggleClass('d-none');
     });
 
     $('.development_content').click(function() {
         $(this).toggleClass('d-none');
-        $('.toggle_row >img').toggleClass('d-none');
+        $('#development_icon >img').toggleClass('d-none');
     });
 
-    $('.toggle_row >img').click(function() {
+    $('#product_management_icon >img').click(function() {
         $(this).toggleClass('d-none');
         $('.product_management_content').toggleClass('d-none');
     });
 
     $('.product_management_content').click(function() {
         $(this).toggleClass('d-none');
-        $('.toggle_row >img').toggleClass('d-none');
+        $('#product_management_icon >img').toggleClass('d-none');
     });
 
 //JS code to create overlay effect on the "portfolio section"
 
     $('.portfolio_row_item').each(function(){
         $(this).hover(function mouseEnter(){
-            $('.portfolio_row_item >p').removeClass('d-none')
+            $(this).find('p').removeClass('d-none')
         },function mouseLeave(){
-            $('.portfolio_row_item >p').addClass('d-none')
+            $(this).find('p').addClass('d-none')
         })
     });
 
